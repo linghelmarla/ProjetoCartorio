@@ -1,6 +1,5 @@
 package entities;
 
-<<<<<<< HEAD
 import java.time.LocalDate;
 
 public class Nascimento {
@@ -73,8 +72,4 @@ public class Nascimento {
 		this.sexo = sexo;
 	}
 
-=======
-public class Nascimento {
-
->>>>>>> main
 }
