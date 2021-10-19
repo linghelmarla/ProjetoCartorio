@@ -1,11 +1,12 @@
 package entities;
 
-import java.time.LocalDate;
+import java.text.SimpleDateFormat;
 
 public class Nascimento {
-
+	
+	
 	private String nome;
-	private LocalDate dataNascimento;
+	private SimpleDateFormat dataNascimento;
 	private String cidade;
 	private String nomePai;
 	private String nomeMae;
@@ -14,7 +15,7 @@ public class Nascimento {
 	public Nascimento() {
 	}
 
-	public Nascimento(String nome, LocalDate dataNascimento, String cidade, String nomePai, String nomeMae, char sexo) {
+	public Nascimento(String nome, SimpleDateFormat dataNascimento, String cidade, String nomePai, String nomeMae, char sexo) {
 		super();
 		this.nome = nome;
 		this.dataNascimento = dataNascimento;
@@ -32,11 +33,11 @@ public class Nascimento {
 		this.nome = nome;
 	}
 
-	public LocalDate getDataNascimento() {
+	public SimpleDateFormat getDataNascimento() {
 		return dataNascimento;
 	}
 
-	public void setDataNascimento(LocalDate dataNascimento) {
+	public void setDataNascimento(SimpleDateFormat dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
 
